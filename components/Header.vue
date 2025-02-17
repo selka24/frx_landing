@@ -4,7 +4,7 @@ import {menu} from "~/core/config.js";
 
 <template>
     <div class="flex h-24 justify-between items-center max-w-screen-xl w-full font-manrope">
-        <h3 class="text-primary">LOGO</h3>
+        <h3 class="text-primary">Active Trades</h3>
         <div class="flex gap-10">
             <div v-for="item in menu" :key="item.title" class="text-ui_white">
                 {{item.title}}

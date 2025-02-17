@@ -13,7 +13,7 @@ const secondMenu = menu.slice(half, menuLength);
 <div class="bg-ui_light_base/70 w-full flex justify-center font-manrope py-[60px]">
     <div class="max-w-screen-lg grid grid-cols-8 w-full">
         <div class="col-span-2 flex flex-col justify-center gap-5">
-            <h3 class="text-primary">LOGO</h3>
+            <h3 class="text-primary">Active Trades</h3>
             <div class="text-middle">All rights reserved.</div>
         </div>
         <div class="col-span-2 flex flex-col gap-3.5">
