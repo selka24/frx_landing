@@ -11,22 +11,28 @@ const secondMenu = menu.slice(half, menuLength);
 
 <template>
 <div class="bg-ui_light_base/70 w-full flex justify-center font-manrope py-[60px]">
-    <div class="max-w-screen-lg grid grid-cols-8 w-full">
-        <div class="col-span-2 flex flex-col justify-center gap-5">
-            <h3 class="text-primary">Active Trades</h3>
-            <div class="text-middle">All rights reserved.</div>
-        </div>
-        <div class="col-span-2 flex flex-col gap-3.5">
-            <div class="text-middle" v-for="fM in firstMenu" :key="`footer-${fM.title}`">
-                {{fM.title}}
+    <div class="max-w-screen-lg grid grid-cols-8 w-full gap-y-10">
+        <div class="col-span-4 lg:col-span-2 order-3 lg:order-1">
+            <div class="flex flex-col justify-center gap-5">
+                <h3 class="text-primary">ACTIVE TRADES</h3>
+                <div class="text-middle">All rights reserved.</div>
             </div>
         </div>
-        <div class="col-span-2 flex flex-col gap-3.5">
-            <div class="text-middle" v-for="fM in secondMenu" :key="`footer-${fM.title}`">
-                {{fM.title}}
+        <div class="col-span-4 lg:col-span-2 order-1 lg:order-2 lg:justify-center flex">
+            <div class="flex flex-col gap-3.5">
+                <div class="text-middle" v-for="fM in firstMenu" :key="`footer-${fM.title}`">
+                    {{fM.title}}
+                </div>
             </div>
         </div>
-        <div class="col-span-2 flex justify-end items-center">
+        <div class="col-span-4 lg:col-span-2 order-2 lg:order-3 lg:justify-center flex">
+            <div class="flex flex-col gap-3.5">
+                <div class="text-middle" v-for="fM in secondMenu" :key="`footer-${fM.title}`">
+                    {{fM.title}}
+                </div>
+            </div>
+        </div>
+        <div class="col-span-4 lg:col-span-2 order-last flex lg:justify-end items-center">
             <button class="btn btn-primary">Get started</button>
         </div>
     </div>

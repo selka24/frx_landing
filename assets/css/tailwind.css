@@ -51,31 +51,36 @@
     @media (width <= 40rem) {
 
         h1 {
-            @apply text-[32px] leading-[44px];
+            @apply !text-[32px] !leading-[44px];
         }
 
         h2 {
-            @apply text-[30px] leading-[42px];
+            @apply !text-[30px] !leading-[42px];
         }
 
         h3 {
-            @apply text-[17px] leading-[24px];
+            @apply !text-[17px] !leading-[24px];
         }
 
         .text-big {
-            @apply text-sm leading-[24px];
+            @apply !text-sm !leading-[24px];
         }
 
         .text-middle {
-            @apply font-medium text-xs leading-[20px];
+            @apply !font-medium !text-xs !leading-[20px];
         }
 
         .btn {
-            @apply text-xs leading-[17px];
+            @apply !text-xs !leading-[17px];
         }
 
         .tag {
-            @apply py-2.5 px-3 text-xs;
+            @apply !py-2.5 !px-3 !text-xs;
+        }
+
+
+        input, textarea {
+            @apply !text-sm !leading-6;
         }
     }
 
@@ -84,7 +89,7 @@
     }
 
     .btn-primary:hover {
-        box-shadow: 0px 2px 19.3px 0px #16F5FD99;
+        box-shadow: 0 2px 19.3px 0 #16F5FD99;
     }
 
     .btn-outline {
@@ -96,10 +101,10 @@
     }
 
     .tag {
-        @apply bg-primary/20 py-2.5 px-5 text-sm text-primary rounded-full font-manrope font-extrabold;
+        @apply bg-primary/20 min-w-max py-2.5 px-5 text-sm text-primary rounded-full font-manrope font-extrabold;
     }
 
     input, textarea {
-        @apply bg-transparent py-4 px-5 border border-ui_gray text-ui_white rounded-md;
+        @apply bg-transparent py-4 px-5 border border-ui_gray text-ui_white rounded-md text-[16px] leading-[31px];
     }
 }

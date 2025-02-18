@@ -5,7 +5,7 @@ defineProps(['account']);
 <template>
     <div
         :class="[{'popular': account.popular}]"
-        class="bg-ui_light_base/70 py-8 px-6 flex flex-col gap-3 sm:gap-6 rounded-4 sm:rounded-[18px]">
+        class="bg-ui_light_base/70 py-8 px-6 flex flex-col gap-3 sm:gap-6 rounded-2xl sm:rounded-[18px]">
         <div class="flex flex-col gap-3.5">
             <div class="flex justify-between items-center">
                 <h3>{{ account.type }}</h3>
@@ -33,7 +33,7 @@ defineProps(['account']);
 
 <style scoped>
 .popular {
-    box-shadow: 0px 2px 19.3px 0px #16F5FD99;
+    box-shadow: 0 2px 19.3px 0 #16F5FD99;
 }
 
 .popular .btn-outline {

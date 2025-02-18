@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       'nuxt-icons',
   ],
   css: [
-      '~/assets/css/main.css'
+      '~/assets/css/main.css',
+      '~/assets/css/hamburger.css',
   ]
 })
