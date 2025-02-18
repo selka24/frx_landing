@@ -18,11 +18,11 @@ const handleHeaderToggle = () => {
             </div>
             <button class="btn btn-primary">Get Started</button>
         </div>
-        <button class="hamburger hamburger--squeeze" :class="[{'is-active': menuActive}]" @click="handleHeaderToggle" type="button">
+        <div class="hamburger hamburger--squeeze" :class="[{'is-active': menuActive}]" @click="handleHeaderToggle" type="button">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
-        </button>
+        </div>
     </div>
 </template>
 

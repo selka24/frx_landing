@@ -10,8 +10,11 @@ import {menu} from "~/core/config.js";
                 {{item.title}}
             </div>
         </div>
+        <div class="flex gap-5 justify-center">
+            <LangSwitch/>
+            <DropdownMenu class="flex items-center lg:hidden"/>
+        </div>
         <button class="hidden lg:block btn btn-primary">Get Started</button>
-        <DropdownMenu class="flex lg:hidden"/>
     </div>
 </template>
 

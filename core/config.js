@@ -20,16 +20,15 @@ export const menu  = [
 ]
 
 export const heroTags = [
-    'Innovative Tools',
-    'Low Spreads',
-    'Fast Order Execution'
+    'innovativeTools',
+    'lowSpreads',
+    'orderExecution'
 ]
 
 export const marketTypes = [
     {
         icon: 'forex',
-        title: 'Forex',
-        description: 'Trade major, minor, and exotic currency pairs with low spreads',
+        langKey: 'forex',
         values: [
             {pair: 'EUR/USD', price: '0.8 pip'},
             {pair: 'GBR/USD', price: '1.0 pip'},
@@ -38,8 +37,7 @@ export const marketTypes = [
     },
     {
         icon: 'indicies',
-        title: 'Indicies',
-        description: 'Trade major, minor, and exotic currency pairs with low spreads',
+        langKey: 'indicies',
         values: [
             {pair: 'EUR/USD', price: '0.8 pip'},
             {pair: 'GBR/USD', price: '1.0 pip'},
@@ -48,8 +46,7 @@ export const marketTypes = [
     },
     {
         icon: 'commodities',
-        title: 'Commodities',
-        description: 'Trade major, minor, and exotic currency pairs with low spreads',
+        langKey: 'commodities',
         values: [
             {pair: 'EUR/USD', price: '0.8 pip'},
             {pair: 'GBR/USD', price: '1.0 pip'},
@@ -58,8 +55,7 @@ export const marketTypes = [
     },
     {
         icon: 'crypto',
-        title: 'Cryptocurrencies',
-        description: 'Trade major, minor, and exotic currency pairs with low spreads',
+        langKey: 'crypto',
         values: [
             {pair: 'EUR/USD', price: '0.8 pip'},
             {pair: 'GBR/USD', price: '1.0 pip'},
@@ -70,33 +66,33 @@ export const marketTypes = [
 
 export const accountTypes = [
     {
-        type: 'Standard Account',
+        type: 'standardAccount',
         deposit: '250',
         features: [
-            'Standard spreads',
-            'Basic analysis tools',
-            '24/5 support'
+            'standardSpreads',
+            'basicTools',
+            'support245'
         ]
     },
     {
-        type: 'Professional Account',
+        type: 'professionalAccount',
         deposit: '1,000',
         features: [
-            'Tight spreads',
-            'Advanced analysis tools',
-            '24/7 support',
-            'Dedicated account manager',
+            'tightSpreads',
+            'advancedTools',
+            'support247',
+            'dedicatedManager',
         ],
         popular: true,
     },
     {
-        type: 'VIP Account',
+        type: 'vipAccount',
         deposit: '10,000',
         features: [
-            'Ultra-tight spreads',
-            'Premium analysis tools',
-            '24/7 VIP support',
-            'Exclusive market insights',
+            'ultraSpreads',
+            'premiumTools',
+            'supportVip',
+            'exclusiveInsights',
         ]
     },
 ]
@@ -104,29 +100,25 @@ export const accountTypes = [
 export const features = [
     {
         icon: 'tools',
-        title: 'Advanced Trading Tools',
-        description: 'Equip yourself with cutting-edge tools for smarter trading',
+        langKey: 'advancedTradingTools',
     },
     {
         icon: 'analysis',
-        title: 'Expert Market Analysis',
-        description: 'Make informed decisions with expert insights'
+        langKey: 'expertMarketAnalysis',
     },
     {
         icon: 'clock',
-        title: 'Real-Time Data',
-        description: 'Stay ahead of the curve with real-time market data',
+        langKey: 'realTimeData',
     },
     {
         icon: 'shield',
-        title: 'Reliable Platform',
-        description: 'Trade with confidence on a trusted platform',
+        langKey: 'reliablePlatform',
     },
 ]
 
 export const testimonials = [
     {
-        description: 'Since I started trading with this platform, my strategies have been more effective than ever. The real-time data and expert insights have made a huge difference in my trading success!',
+        description: 'sarah',
         client: {
             image: 'avatar-1.png',
             name: 'Saraha Thompson',
@@ -134,7 +126,7 @@ export const testimonials = [
         }
     },
     {
-        description: 'I’ve tried several platforms, but none compare to the reliability and tools here. The trading tools and low spreads have helped me make smarter, more profitable decisions!',
+        description: 'michael',
         client: {
             image: 'avatar-2.png',
             name: 'Michael Williams',

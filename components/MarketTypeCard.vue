@@ -10,8 +10,8 @@ defineProps(['card'])
             class="text-3xl sm:text-[41px]"
         />
         <div class="flex flex-col gap-1.5 sm:gap-2.5">
-            <h3>{{card.title}}</h3>
-            <div class="text-middle">{{card.description}}</div>
+            <h3>{{$t(`home.marketsFeatures.${card.langKey}.title`)}}</h3>
+            <div class="text-middle">{{$t(`home.marketsFeatures.${card.langKey}.description`)}}</div>
         </div>
         <div class="flex flex-col gap-1.5 sm:gap-2.5">
             <div class="flex text-xs lg:text-base" v-for="value in card.values" :key="card.icon + value.pair">

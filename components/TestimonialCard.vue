@@ -8,7 +8,7 @@ defineProps(['testimonial'])
     >
         <img src="~/assets/images/stars.png" class="max-w-[130px] lg:max-w-[154px]" alt="stars">
         <div class="text-middle">
-            {{ testimonial.description }}
+            {{ $t(`home.clientTestimonials.${testimonial.description}`) }}
         </div>
         <div class="flex gap-5 items-center">
             <img :src="`/clients/${testimonial.client.image}`" class="avatar" :alt="testimonial.client.name" />
