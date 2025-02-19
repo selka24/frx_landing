@@ -10,5 +10,6 @@
         <Footer class="z-[10] relative px-6 sm:px-10 mt-32"/>
     </div>
 </template>
-<script setup lang="ts">
+<script setup>
+
 </script>

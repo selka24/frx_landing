@@ -1,0 +1,85 @@
+{
+    "getStarted": "Empezar",
+    "home": {
+        "heroTitle": "Opere Como un Profesional: Las Mejores Condiciones para el <span class='text-primary'>Trading de Forex</span>",
+        "heroDescription": "¡Únase a Miles de Traders Exitosos Hoy y Lleve su Trading de Forex al Siguiente Nivel!",
+        "heroTags": {
+            "innovativeTools": "Herramientas Innovadoras",
+            "lowSpreads": "Spread Bajos",
+            "orderExecution": "Ejecución Rápida de Órdenes"
+        },
+        "marketTypes": "Tipos de Mercado",
+        "minDeposit": "depósito mínimo",
+        "popular": "Popular",
+        "tradeWithEase": "Negocie en los Mercados Globales con Facilidad",
+        "marketDescription": "Aproveche una Amplia Gama de Instrumentos de Trading y Benefíciese de Spreads Altamente Competitivos",
+        "accountTypes": "Tipos de Cuenta",
+        "chooseAccount": "Elija Su Tipo de Cuenta Perfecto",
+        "accountDescription": "Seleccione la cuenta que se alinee con sus necesidades y objetivos de trading",
+        "standardAccount": "Cuenta Estándar",
+        "professionalAccount": "Cuenta Profesional",
+        "vipAccount": "Cuenta VIP",
+        "accountFeatures": {
+            "standardSpreads": "Spreads Estándar",
+            "tightSpreads": "Spreads Ajustados",
+            "basicTools": "Herramientas básicas de análisis",
+            "premiumTools": "Herramientas premium de análisis",
+            "advancedTools": "Herramientas avanzadas de análisis",
+            "support245": "Soporte 24/5",
+            "support247": "Soporte 24/7",
+            "supportVip": "Soporte VIP 24/7",
+            "dedicatedManager": "Gestor de cuenta dedicado",
+            "ultraSpreads": "Spreads Ultra-Ajustados",
+            "exclusiveInsights": "Información exclusiva del mercado"
+        },
+        "clientTestimonials": {
+            "sarah": "¡Desde que empecé a operar con esta plataforma, mis estrategias han sido más efectivas que nunca. Los datos en tiempo real y los análisis expertos han marcado una gran diferencia en mi éxito como trader!",
+            "michael": "He probado varias plataformas, pero ninguna se compara con la fiabilidad y herramientas de aquí. ¡Las herramientas de trading y los spreads bajos me han ayudado a tomar decisiones más inteligentes y rentables!"
+        },
+        "features": {
+            "advancedTradingTools": {
+                "title": "Herramientas de Trading Avanzadas",
+                "description": "Equípese con herramientas de vanguardia para un trading más inteligente"
+            },
+            "expertMarketAnalysis": {
+                "title": "Análisis de Mercado por Expertos",
+                "description": "Tome decisiones informadas con análisis expertos"
+            },
+            "realTimeData": {
+                "title": "Datos en Tiempo Real",
+                "description": "Manténgase a la vanguardia con datos de mercado en tiempo real"
+            },
+            "reliablePlatform": {
+                "title": "Plataforma Confiable",
+                "description": "Opere con confianza en una plataforma segura"
+            }
+        },
+        "marketsFeatures": {
+            "forex": {
+                "title": "Forex",
+                "description": "Negocie pares de divisas mayores, menores y exóticos con spreads bajos"
+            },
+            "indicies": {
+                "title": "Índices",
+                "description": "Negocie pares de divisas mayores, menores y exóticos con spreads bajos"
+            },
+            "commodities": {
+                "title": "Materias Primas",
+                "description": "Negocie pares de divisas mayores, menores y exóticos con spreads bajos"
+            },
+            "crypto": {
+                "title": "Criptomonedas",
+                "description": "Negocie pares de divisas mayores, menores y exóticos con spreads bajos"
+            }
+        },
+        "openAccount": "Abrir Cuenta",
+        "featBenefit": "Características y Beneficios",
+        "unlockPotential": "Libere Su Potencial de Trading",
+        "explorePowerful": "Explore las poderosas herramientas y servicios diseñados para ayudarle a alcanzar el éxito financiero",
+        "testimonials": "Testimonios",
+        "clientsSaying": "Lo Que Dicen Nuestros Clientes",
+        "realStories": "Historias reales de traders exitosos que han experimentado la diferencia",
+        "contact": "Contacto",
+        "home": "Home"
+    }
+}

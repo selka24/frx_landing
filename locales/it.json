@@ -1,0 +1,85 @@
+{
+    "getStarted": "Inizia Ora",
+    "home": {
+        "heroTitle": "Opera Come un Professionista: Le Migliori Condizioni per il <span class='text-primary'>Trading sul Forex</span>",
+        "heroDescription": "Unisciti a Migliaia di Trader di Successo Oggi e Porta il Tuo Trading sul Forex al Livello Successivo!",
+        "heroTags": {
+            "innovativeTools": "Strumenti Innovativi",
+            "lowSpreads": "Spread Bassi",
+            "orderExecution": "Esecuzione Ordini Veloce"
+        },
+        "marketTypes": "Tipi di Mercato",
+        "minDeposit": "deposito minimo",
+        "popular": "Popolare",
+        "tradeWithEase": "Opera sui Mercati Globali con Facilità",
+        "marketDescription": "Approfitta di una Vasta Gamma di Strumenti di Trading e Beneficia di Spread Altamente Competitivi",
+        "accountTypes": "Tipi di Conto",
+        "chooseAccount": "Scegli il Tipo di Conto Perfetto",
+        "accountDescription": "Seleziona il conto che si adatta alle tue esigenze e obiettivi di trading",
+        "standardAccount": "Conto Standard",
+        "professionalAccount": "Conto Professionale",
+        "vipAccount": "Conto VIP",
+        "accountFeatures": {
+            "standardSpreads": "Spread Standard",
+            "tightSpreads": "Spread Ridotti",
+            "basicTools": "Strumenti di analisi di base",
+            "premiumTools": "Strumenti di analisi premium",
+            "advancedTools": "Strumenti di analisi avanzati",
+            "support245": "Supporto 24/5",
+            "support247": "Supporto 24/7",
+            "supportVip": "Supporto VIP 24/7",
+            "dedicatedManager": "Account manager dedicato",
+            "ultraSpreads": "Spread ultra-ridotti",
+            "exclusiveInsights": "Approfondimenti esclusivi sul mercato"
+        },
+        "clientTestimonials": {
+            "sarah": "Da quando ho iniziato a operare con questa piattaforma, le mie strategie sono state più efficaci che mai. I dati in tempo reale e le analisi degli esperti hanno fatto un'enorme differenza nel mio successo!",
+            "michael": "Ho provato diverse piattaforme, ma nessuna è paragonabile all'affidabilità e agli strumenti qui presenti. Gli strumenti di trading e gli spread bassi mi hanno aiutato a prendere decisioni più intelligenti e redditizie!"
+        },
+        "features": {
+            "advancedTradingTools": {
+                "title": "Strumenti di Trading Avanzati",
+                "description": "Dotati di strumenti all'avanguardia per un trading più intelligente"
+            },
+            "expertMarketAnalysis": {
+                "title": "Analisi di Mercato Esperta",
+                "description": "Prendi decisioni informate con approfondimenti di esperti"
+            },
+            "realTimeData": {
+                "title": "Dati in Tempo Reale",
+                "description": "Rimani al passo con i dati di mercato in tempo reale"
+            },
+            "reliablePlatform": {
+                "title": "Piattaforma Affidabile",
+                "description": "Opera con sicurezza su una piattaforma affidabile"
+            }
+        },
+        "marketsFeatures": {
+            "forex": {
+                "title": "Forex",
+                "description": "Opera su coppie di valute principali, minori ed esotiche con spread bassi"
+            },
+            "indicies": {
+                "title": "Indici",
+                "description": "Opera su coppie di valute principali, minori ed esotiche con spread bassi"
+            },
+            "commodities": {
+                "title": "Materie Prime",
+                "description": "Opera su coppie di valute principali, minori ed esotiche con spread bassi"
+            },
+            "crypto": {
+                "title": "Criptovalute",
+                "description": "Opera su coppie di valute principali, minori ed esotiche con spread bassi"
+            }
+        },
+        "openAccount": "Apri Conto",
+        "featBenefit": "Caratteristiche e Vantaggi",
+        "unlockPotential": "Libera il Tuo Potenziale di Trading",
+        "explorePowerful": "Scopri i potenti strumenti e servizi progettati per aiutarti a raggiungere il successo finanziario",
+        "testimonials": "Testimonianze",
+        "clientsSaying": "Cosa Dicono i Nostri Clienti",
+        "realStories": "Storie reali di trader di successo che hanno sperimentato la differenza",
+        "contact": "Contatti",
+        "home": "Home"
+    }
+}

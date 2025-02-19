@@ -1,21 +1,27 @@
 export const menu  = [
     {
-        title: 'Home'
+        title: 'Home',
+        key: 'home',
     },
     {
-        title: 'Market Types'
+        title: 'Market Types',
+        key: 'marketTypes',
     },
     {
-        title: 'Account Types'
+        title: 'Account Types',
+        key: 'accountTypes'
     },
     {
-        title: 'Features & Benefits'
+        title: 'Features & Benefits',
+        key: 'featBenefit',
     },
     {
-        title: 'Testimonials'
+        title: 'Testimonials',
+        key: 'testimonials',
     },
     {
-        title: 'Contact'
+        title: 'Contact',
+        key: 'contact',
     },
 ]
 

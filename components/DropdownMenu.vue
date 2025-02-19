@@ -13,10 +13,10 @@ const handleHeaderToggle = () => {
         <div
             :class="[{'is-active !p-6': menuActive}]"
             class="flex dropdown font-sans font-extrabold flex-col absolute left-0 top-16 w-full bg-ui_light_base items-center text-center gap-6 p-0">
-            <div v-for="item in menu" :key="'mobile' + item.title" class="text-ui_white">
-                {{item.title}}
-            </div>
-            <button class="btn btn-primary">Get Started</button>
+            <a v-for="item in menu" :href="`#${item.key}`" :key="'mobile' + item.title" class="text-ui_white">
+                {{$t(`home.${item.key}`)}}
+            </a>
+            <button class="btn btn-primary">{{$t('getStarted')}}</button>
         </div>
         <div class="hamburger hamburger--squeeze" :class="[{'is-active': menuActive}]" @click="handleHeaderToggle" type="button">
             <span class="hamburger-box">

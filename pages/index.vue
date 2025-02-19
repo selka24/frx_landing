@@ -5,15 +5,15 @@ import MarketTypes from "~/components/MarketTypes.vue";
 
 <template>
     <div class="flex flex-col items-center">
-        <HeroSection/>
-        <MarketTypes/>
-        <AccountTypes/>
-        <FeaturesBenefits/>
-        <TestimonialSection/>
-        <ContactSection class="mt-28"/>
+        <HeroSection id="home"/>
+        <MarketTypes id="marketTypes"/>
+        <AccountTypes id="accountTypes"/>
+        <FeaturesBenefits id="featBenefit"/>
+        <TestimonialSection id="testimonials"/>
+        <ContactSection class="mt-28" id="contact"/>
     </div>
 </template>
 
-<style scoped>
-
+<style>
+html { scroll-behavior: smooth; }
 </style>
