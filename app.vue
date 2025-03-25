@@ -1,6 +1,6 @@
 <template>
     <div class="bg-ui_base flex flex-col items-center">
-        <img
+        <nuxt-img
             src="~/assets/images/hero-bg.png"
             alt="style element"
             class="absolute top-0 left-0"

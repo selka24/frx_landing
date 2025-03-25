@@ -17,7 +17,7 @@ import {heroTags} from "~/core/config.js";
                 </div>
             </div>
             <div class="col-span-full lg:col-span-1">
-                <img src="~/assets/images/phones.png" alt="style element" class="w-full">
+                <nuxt-img src="/images/phones.png" alt="style element" class="w-full"/>
             </div>
         </div>
     </div>

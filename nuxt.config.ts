@@ -7,9 +7,10 @@ export default defineNuxtConfig({
         '~/assets/css/hamburger.css',
     ],
     modules: [
-        '@nuxtjs/tailwindcss',
-        'nuxt-icons',
-        '@nuxtjs/i18n',
+      '@nuxtjs/tailwindcss',
+      'nuxt-icons',
+      '@nuxtjs/i18n',
+      "@nuxt/image"
     ],
     i18n: {
         lazy: true,
